@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: box-sizing;
+}
+body{
+    background-image: url('./img/bg.png');
+    overflow: hidden;
+}
+
+.container{
+    height: 100vh;
+    width: 90%;
+    margin: 10px auto;
+    padding: 15px;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    height: 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 25%;
+}
+
+#myButton{
+    background-color: black;
+    font-weight: 500;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.container .content{
+    display: flex;
+    height: 75%;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 10%;
+}
+
+.content .sub {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: auto;
+}
+
+.content .sub h3{
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.content .sub h1{
+    font-size: 4rem;
+    font-weight: 900;
+    margin: 10px 0;
+}
+
+.content .sub p{
+    font-size: 15px;
+    font-weight: 500;
+    width: 70%;
+    margin: 25px 0;
+}
+
+.price {
+    display: flex;
+
+}
+
+span {
+    font-size: 15px;
+    color: #9b5f069c;
+}
+.sub .price h1{ 
+    font-size: 20px;
+    margin: 10px 0;
+    margin: 15px;
+}
+.sub .price #mybutton {
+    margin-top: 10px;
+    background-color: #9b5f065e;
+    font-weight: 300;
+    color: white;
+    border-color:  #9b5f0613;
+    padding: 8px 20px;
+    border-radius: 5px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#scroll {
+    display: block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: medium;
+}
+
+
