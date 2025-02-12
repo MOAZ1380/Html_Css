@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 100px;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.container .line{
+    height: 3px;
+    width: 120px;
+    background-color: red;
+    margin-bottom: 5px;
+}
+
+.container .Testimonials  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.active{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid white;
+    box-shadow: 10px 10px 5px rgba(175, 173, 173, 0.5);
+}
+img{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid ;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+i {
+    font-size: 20px;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.container .Testimonials .active p{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
