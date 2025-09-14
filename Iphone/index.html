@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./styles.css" />
+		<title>Apple</title>
+	</head>
+	<body>
+		<header>
+			<div class="logo">
+				<img src="./images/logo.png" alt="" />
+			</div>
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Products</a></li>
+				<li><a href="">News</a></li>
+				<li><a href="">Support</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+		</header>
+
+		<section>
+			<div class="text">
+				<h1>Iphone 14 Pro Max</h1>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad sint non
+					placeat et explic aut!
+				</p>
+				<button>Buy Now</button>
+			</div>
+			<div class="img">
+				<img src="./images/0.png" alt="" class="photo" />
+			</div>
+		</section>
+
+		<footer>
+			<img data-text="black" src="./images/0.png" alt="" />
+			<img data-text="babby-blue" src="./images/1.png" alt="" />
+			<img data-text="baby-pink" src="./images/2.png" alt="" />
+			<img data-text="baby-green" src="./images/3.png" alt="" />
+			<img data-text="baby-yellow" src="./images/4.png" alt="" />
+		</footer>
+		<script>
+			document.addEventListener("DOMContentLoaded", () => {
+				const images = document.querySelectorAll("footer img");
+				const mainPhoto = document.querySelector(".photo");
+
+				const colorMap = {
+					black: "#1c1c1c",
+					"babby-blue": "#A7D8FF",
+					"baby-pink": "#FFB6C1",
+					"baby-green": "#B2F2BB",
+					"baby-yellow": "red",
+				};
+
+				images.forEach((img) => {
+					img.addEventListener("click", () => {
+						const key = img.dataset.text;
+						const color = colorMap[key] || key;
+						document.body.style.backgroundColor = color;
+
+						mainPhoto.src = img.src;
+
+						images.forEach((i) => i.classList.remove("active"));
+						img.classList.add("active");
+					});
+				});
+			});
+		</script>
+	</body>
+</html>
