@@ -476,3 +476,79 @@ form button {
 	color: #e4b95b;
 	text-decoration: none;
 }
+
+@media (max-width: 768px) {
+	.home-pg-header {
+		flex-direction: column;
+	}
+
+	.nav-links {
+		flex-direction: column;
+		width: 100%;
+		align-items: center;
+	}
+
+	.second-page {
+		height: auto;
+		padding: 50px 0;
+	}
+
+	.second-page-content {
+		flex-direction: column;
+	}
+
+	.second-page-img {
+		justify-content: center;
+		margin-top: 30px;
+		width: 80%;
+	}
+
+	.dishes {
+		flex-direction: column;
+	}
+
+	.four-page {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: flex-start;
+		height: 170vh;
+		padding: 50px 0;
+	}
+	.four-page-menu {
+		width: 80%;
+		flex-direction: row;
+	}
+	.cart {
+		width: 100%;
+	}
+
+	.four-page-text h1 {
+		margin: 0;
+	}
+
+	.four-page button {
+		position: relative;
+		bottom: 10px;
+		top: 700px;
+	}
+
+	.five-page {
+		flex-direction: column;
+		height: auto;
+		gap: 50px;
+		padding: 50px 0;
+	}
+
+	.six-page {
+		height: auto;
+		padding: 50px 0;
+		flex-wrap: wrap;
+		background-size: cover;
+	}
+
+	#contact .contact-content {
+		flex-direction: column;
+		gap: 50px;
+	}
+}
