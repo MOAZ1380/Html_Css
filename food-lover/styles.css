@@ -477,7 +477,7 @@ form button {
 	text-decoration: none;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
 	body {
 		background: #a7760e;
 	}
@@ -554,7 +554,7 @@ form button {
 		flex-direction: column;
 		gap: 50px;
 	}
-}
+} */
 
 /* @media (min-width: 576px) {
 	.home-pg-content h1 {
