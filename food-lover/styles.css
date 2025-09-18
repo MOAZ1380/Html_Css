@@ -478,6 +478,9 @@ form button {
 }
 
 @media (max-width: 768px) {
+	body {
+		background: #a7760e;
+	}
 	.home-pg-header {
 		flex-direction: column;
 	}
@@ -552,3 +555,80 @@ form button {
 		gap: 50px;
 	}
 }
+
+/* @media (min-width: 576px) {
+	.home-pg-content h1 {
+		font-size: 30px;
+	}
+
+	.second-page-img {
+		justify-content: center;
+		align-items: center;
+		margin-top: 30px;
+		width: 100%;
+	}
+
+	.second-page-text p {
+		width: 400px;
+		font-size: 16px;
+		white-space: normal;
+		word-wrap: break-word;
+		overflow-wrap: break-word;
+	}
+
+	.second-page-img img {
+		width: 100%;
+	}
+} */
+/* 
+@media (min-width: 992px) {
+	.dishes {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.third-page {
+		height: auto;
+		padding: 50px 0;
+	}
+
+	.four-page-menu {
+		width: 100%;
+		justify-content: flex-end;
+	}
+
+	.six-page {
+		height: auto;
+		background-size: cover;
+	}
+} */
+
+/* @media (max-width: 480px) {
+	body {
+		background: red;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.second-page-content {
+		flex-direction: column;
+	}
+}
+
+@media (min-width: 1200px) {
+	body {
+		background: green;
+	}
+
+	.second-page {
+		height: auto;
+		padding: 50px 0;
+	}
+	.second-page-img {
+		background-color: red;
+		justify-content: center;
+		margin-top: 30px;
+		width: 80%;
+	}
+} */
